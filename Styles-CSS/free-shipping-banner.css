@@ -1,0 +1,28 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.top-header {
+  display: flex;
+  background-color: rgb(236, 236, 236);
+  height: 2.2rem;
+  align-items: center;
+  color: rgb(75, 72, 72);
+  font-weight: bold;
+  font-size: 0.8rem;
+
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#location {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}

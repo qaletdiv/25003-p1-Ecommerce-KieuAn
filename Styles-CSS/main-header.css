@@ -1,0 +1,69 @@
+.bottom-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 5rem;
+}
+
+.product-list {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.bottom-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-header a:hover {
+  opacity: 0.6;
+}
+
+.logo-nike {
+  width: 7rem;
+}
+
+.search-bar-section {
+  position: relative;
+  display: inline-block;
+}
+.search-bar {
+  padding: 0.5rem 2rem;
+  box-sizing: border-box;
+}
+
+.fas.fa-search {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.convenience {
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+}
+
+.user-icon,
+.contact-us,
+.shopping-cart {
+  display: block;
+  text-align: center;
+}
+
+.account-status {
+  display: flex;
+  font-size: 0.6rem;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.contact,
+.cart {
+  font-size: 0.6rem;
+  margin-top: 0.5rem;
+}

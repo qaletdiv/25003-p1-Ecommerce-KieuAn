@@ -1,0 +1,59 @@
+.section-background {
+  margin: 2rem auto;
+  max-width: 1200px;
+  height: 32em;
+  position: relative;
+}
+
+.section-background-content {
+  display: grid;
+  grid-template-columns: 11rem 11rem 11rem;
+  gap: 7rem;
+  height: 4rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateY(-40%);
+  transform: translateX(-50%);
+}
+
+.section-background-content a {
+  display: grid;
+  align-items: center;
+
+  color: rgb(255, 251, 251);
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgba(208, 208, 204, 0.8);
+  border-radius: 15px;
+
+  align-items: center;
+  text-align: center;
+  opacity: 0.4s;
+}
+
+.section-background-content a:hover {
+  opacity: 0.8;
+}
+
+.section-background-content a:active {
+  opacity: 0.6;
+}
+
+.second-background {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.section-background-image {
+  width: 100%;
+  height: 100%;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 1.6rem;
+}

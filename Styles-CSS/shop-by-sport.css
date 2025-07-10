@@ -1,0 +1,47 @@
+.shop-by-sports {
+  max-width: 1200px;
+  margin: 6rem auto;
+}
+
+.slide-product-type {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  max-height: 25rem;
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
+
+.slide-product-type img {
+  width: 20rem;
+  height: 25rem;
+  object-fit: cover;
+}
+
+.sport-images {
+  position: relative;
+}
+
+.sport-type {
+  position: absolute;
+  left: 2rem;
+  top: 80%;
+  transform: translateY(-80%);
+  padding: 0.5rem 1.3rem;
+  border: none;
+  border-radius: 10rem;
+  font-weight: bold;
+  background-color: aliceblue;
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+
+.sport-type:hover {
+  opacity: 0.7;
+}
+
+.sport-type:active {
+  opacity: 0.5;
+}

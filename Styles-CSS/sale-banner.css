@@ -1,0 +1,11 @@
+.sale-notification {
+  display: flex;
+  margin-top: 0.2rem;
+  background-color: rgb(241, 241, 241);
+  height: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  color: rgb(119, 116, 116);
+  font-weight: bold;
+  margin-top: 0.4rem;
+}

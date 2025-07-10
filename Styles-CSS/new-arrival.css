@@ -1,0 +1,47 @@
+.new-arrival {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.new-arrival img {
+  width: 26rem;
+  height: auto;
+  opacity: 0.3s;
+}
+
+.new-arrival img:hover {
+  opacity: 0.8;
+}
+
+.new-arrival a {
+  text-decoration: none;
+  color: black;
+  line-height: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 1rem;
+  opacity: 0.3s;
+}
+
+.product-price {
+  margin-top: 2rem;
+  font-size: 1rem;
+  opacity: 0.3s;
+}
+
+.product-name:hover,
+.product-price:hover {
+  opacity: 0.6;
+}
+
+.product-slide {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  margin: 1rem auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}

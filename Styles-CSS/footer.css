@@ -1,0 +1,89 @@
+.footer-section {
+  display: grid;
+  grid-template-rows: 40% 1fr;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1.5fr repeat(4, 1fr);
+  height: 100%;
+  gap: 1rem;
+}
+
+.footer h5 {
+  font-size: 1rem;
+}
+
+.footer a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  line-height: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer-bottom {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+}
+
+.left-bottom-footer {
+  width: 90%;
+  line-height: 2rem;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-rows: 6rem 1fr;
+  position: relative;
+}
+
+.logo-nike-footer {
+  display: block;
+  position: absolute;
+  width: 5rem;
+  top: 5%;
+  left: 30%;
+  transform: translate(-30%);
+}
+
+.follow-payment-option {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.follow-us {
+  display: grid;
+  grid-template-rows: 2rem 6rem;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-icons img {
+  width: 2rem;
+}
+
+.payment-method {
+  display: grid;
+  grid-template-rows: 2rem 6rem;
+}
+
+.payment-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.payment-icons img {
+  width: 3rem;
+}
